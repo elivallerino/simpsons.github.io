@@ -1,0 +1,119 @@
+﻿
+
+body{
+	background-color:#488a65; /* colocamos un color de fondo a la página */
+	background-image:url("imagenes/4.jpg"); /*coloca una imagen de fondo por medio d ela función url() */
+	
+	font-family: Arial, Verdana, sans-serif;/* usamos la fuente como siempre */
+}
+
+h1{
+	color:#2f4f3d; /* color del texto */
+	text-align:center; /* alineamos el título al centro */	
+	font-family:"comic sans ms",cursive;
+	margin-left:35%; /* margen izq. del 10% de la pantalla */
+	margin-right:35%; /* margen der. del 10% de la pantalla */
+	background-color:#ffffff; 
+	
+	border-bottom-style : solid; 
+	border-bottom-width : 20px; 
+	border-bottom-color : #a3a676;
+	
+	border-top-style : solid; 
+	border-top-width : 15px; 
+	border-top-color : #e1e6a3;
+
+    border-radius:20px;
+	text-shadow: 4px 4px 4px #e1e6a3;
+	}
+
+
+p{
+	color:white; /* color del texto */
+	text-align:justify; /* alineación justificada */
+	font-size:20px; /* tamaño de fuente de 20 pixels */
+	line-height:35px; /* altura de líea o interlineado  de 30 pixels */
+	margin-left:10%; /* margen izq. del 10% de la pantalla */
+	margin-right:10%; /* margen der. del 10% de la pantalla */
+	
+	/* Sombra del texto: desplazamiento horiz. desplazaminto vert. amplitud color */
+	text-shadow: 2px 2px 2px #000000;
+	
+}
+
+.especial{
+	color:yellow;
+	margin-left:15%; /* margen izq. del 10% de la pantalla */
+	margin-right:15%; /* margen der. del 10% de la pantalla */
+	font-size:24px;
+	
+}
+
+.especial2{
+	color:darkgreen;
+	margin-left:15%; /* margen izq. del 10% de la pantalla */
+	margin-right:15%; /* margen der. del 10% de la pantalla */
+	font-size:24px;
+	background-color:white;
+}
+	
+hr{
+	width:80%; /* ancho de la línea */
+}
+
+h2{
+	color:#e1e6a3; /* color del texto */
+	margin-left:10%;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+img{
+	display:block; /* mostrar a la imagen dentro de un bloque */
+	margin:auto; /* colocar márgenes automáticos a izquierda y derecha */
+	border-radius:20px; 
+	margin-bottom:20px;/* separación entre fotos */
+	
+	box-shadow: -6px 8px 5px black;
+	
+}
+
+a:link{
+	
+	margin-left:10%;
+	color:#2f4f3d; 
+	text-decoration:none;
+	background-color:white;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+
+
+a:hover{
+	color:#344d3b; 
+	border-top-style:solid;
+	border-top-width:4px;
+	border-top-color:#7dd194; 
+	
+	border-bottom-style:solid;
+	border-bottom-width:4px;
+	border-bottom-color:#7dd194; 
+	background-color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
